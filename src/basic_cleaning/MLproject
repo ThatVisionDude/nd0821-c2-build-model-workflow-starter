@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: "The input dataset as a W&B artifact."
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: "The name of the output artifact, i.e. the cleaned dataset"
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: "The type of the output artifact, e.g. clean_data"
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: "Description of the output artifact"
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: "The minimum rental price that is used in the dataset"
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: "The maximum rental price that is used in the dataset"
         type: string
 
 
